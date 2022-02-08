@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2022/01/30 13:51:44.000.492,=C:\Users\randi\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2022/01/30 13:52:58.000.003,C:\Users\randi\Documents\Embarcadero\Studio\Projects\Unit1.pas=E:\Erc Tech\Testes\WK\uFrmPrincipal.pas</Transaction>
+    <Transaction>2022/01/30 13:52:58.000.003,C:\Users\randi\Documents\Embarcadero\Studio\Projects\Unit1.dfm=E:\Erc Tech\Testes\WK\uFrmPrincipal.dfm</Transaction>
+    <Transaction>2022/01/30 13:53:17.000.511,C:\Users\randi\Documents\Embarcadero\Studio\Projects\Project1.dproj=E:\Erc Tech\Testes\WK\TesteWK.dproj</Transaction>
+    <Transaction>2022/01/30 16:25:42.000.995,=E:\Erc Tech\Testes\WK\Unit1.pas</Transaction>
+    <Transaction>2022/01/30 16:25:59.000.050,E:\Erc Tech\Testes\WK\source\dm.dfm=E:\Erc Tech\Testes\WK\Unit1.dfm</Transaction>
+    <Transaction>2022/01/30 16:25:59.000.050,E:\Erc Tech\Testes\WK\source\dm.pas=E:\Erc Tech\Testes\WK\Unit1.pas</Transaction>
+    <Transaction>2022/01/30 16:45:07.000.458,=E:\Erc Tech\Testes\WK\Unit2.pas</Transaction>
+    <Transaction>2022/01/30 16:45:30.000.883,E:\Erc Tech\Testes\WK\source\uFrmConfigDB.pas=E:\Erc Tech\Testes\WK\Unit2.pas</Transaction>
+    <Transaction>2022/01/30 16:45:30.000.883,E:\Erc Tech\Testes\WK\source\uFrmConfigDB.dfm=E:\Erc Tech\Testes\WK\Unit2.dfm</Transaction>
+    <Transaction>2022/01/30 18:08:08.000.061,=E:\Erc Tech\Testes\WK\Unit1.pas</Transaction>
+    <Transaction>2022/01/30 18:08:41.000.108,E:\Erc Tech\Testes\WK\source\uClass.Connection.pas=E:\Erc Tech\Testes\WK\Unit1.pas</Transaction>
+    <Transaction>2022/01/30 18:33:36.000.259,E:\Erc Tech\Testes\WK\source\uDm.pas=E:\Erc Tech\Testes\WK\source\dm.pas</Transaction>
+    <Transaction>2022/01/30 18:33:36.000.259,E:\Erc Tech\Testes\WK\source\uDm.dfm=E:\Erc Tech\Testes\WK\source\dm.dfm</Transaction>
+    <Transaction>2022/01/30 20:46:42.000.493,=E:\Erc Tech\Testes\WK\Unit1.pas</Transaction>
+    <Transaction>2022/01/30 20:46:55.000.703,E:\Erc Tech\Testes\WK\source\uFuncoes.pas=E:\Erc Tech\Testes\WK\Unit1.pas</Transaction>
+    <Transaction>2022/01/30 23:59:44.000.069,=E:\Erc Tech\Testes\WK\Unit2.pas</Transaction>
+    <Transaction>2022/01/31 00:01:27.000.926,E:\Erc Tech\Testes\WK\source\uFrmMovPedidos.dfm=E:\Erc Tech\Testes\WK\Unit2.dfm</Transaction>
+    <Transaction>2022/01/31 00:01:27.000.926,E:\Erc Tech\Testes\WK\source\uFrmMovPedidos.pas=E:\Erc Tech\Testes\WK\Unit2.pas</Transaction>
+    <Transaction>2022/01/31 22:37:10.000.402,=E:\Erc Tech\Testes\WK\Unit1.pas</Transaction>
+    <Transaction>2022/01/31 22:37:40.000.691,E:\Erc Tech\Testes\WK\Unit1.pas=E:\Erc Tech\Testes\WK\source\uClass.Mov.Pedido.pas</Transaction>
+    <Transaction>2022/01/31 23:10:29.000.644,=E:\Erc Tech\Testes\WK\Unit1.pas</Transaction>
+    <Transaction>2022/01/31 23:11:02.000.096,E:\Erc Tech\Testes\WK\Unit1.pas=E:\Erc Tech\Testes\WK\source\uFrmMovPedidoItens.pas</Transaction>
+    <Transaction>2022/01/31 23:11:02.000.096,E:\Erc Tech\Testes\WK\Unit1.dfm=E:\Erc Tech\Testes\WK\source\uFrmMovPedidoItens.dfm</Transaction>
+    <Transaction>2022/02/06 19:59:41.000.944,=E:\Erc Tech\Testes\WK\Unit1.pas</Transaction>
+    <Transaction>2022/02/06 19:59:57.000.392,E:\Erc Tech\Testes\WK\source\uFrmMovPedidoItensEdit.pas=E:\Erc Tech\Testes\WK\Unit1.pas</Transaction>
+    <Transaction>2022/02/06 19:59:57.000.392,E:\Erc Tech\Testes\WK\source\uFrmMovPedidoItensEdit.dfm=E:\Erc Tech\Testes\WK\Unit1.dfm</Transaction>
+  </Transactions>
+</BorlandProject>

@@ -1,0 +1,542 @@
+object FrmConfigDB: TFrmConfigDB
+  Left = 0
+  Top = 0
+  BorderStyle = bsNone
+  ClientHeight = 438
+  ClientWidth = 554
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'Tahoma'
+  Font.Style = []
+  OldCreateOrder = False
+  Position = poMainFormCenter
+  OnClose = FormClose
+  OnShow = FormShow
+  PixelsPerInch = 96
+  TextHeight = 13
+  object ShpBackGround: TShape
+    Left = 0
+    Top = 0
+    Width = 554
+    Height = 438
+    Align = alClient
+    Brush.Color = 15921906
+    ExplicitLeft = 96
+    ExplicitTop = 88
+    ExplicitWidth = 65
+    ExplicitHeight = 65
+  end
+  object PnlBackground: TPanel
+    AlignWithMargins = True
+    Left = 8
+    Top = 8
+    Width = 538
+    Height = 422
+    Margins.Left = 8
+    Margins.Top = 8
+    Margins.Right = 8
+    Margins.Bottom = 8
+    Align = alClient
+    BevelOuter = bvNone
+    TabOrder = 0
+    object PnlTitle: TPanel
+      AlignWithMargins = True
+      Left = 0
+      Top = 0
+      Width = 538
+      Height = 98
+      Margins.Left = 0
+      Margins.Top = 0
+      Margins.Right = 0
+      Margins.Bottom = 8
+      Align = alTop
+      BevelOuter = bvNone
+      Color = clWhite
+      ParentBackground = False
+      TabOrder = 0
+      object Image1: TImage
+        AlignWithMargins = True
+        Left = 3
+        Top = 3
+        Width = 96
+        Height = 92
+        Align = alLeft
+        Center = True
+        Picture.Data = {
+          0954506E67496D61676589504E470D0A1A0A0000000D49484452000000500000
+          005008060000008E11F2AD00000006624B474400FF00FF00FFA0BDA793000010
+          CF4944415478DAED5C097013579AFEFB504B2DD99665EB34966D59363706872B
+          86C9C18404CCCC105842B249269549D5D6EC564D4DED2443420E76E24C08C30C
+          90ECA6B66A2BA9DD5C6C96A961861048C2114820E1B60987C1F77DC99625F9D0
+          DDEA63DF6BC729E4E1906CCB47C257D525BBBBF5F4DEF78EFFFFBFFEFB11701B
+          230231DE1598ECB84DE008719BC011624C092C29F9926603ADF9842464934066
+          024958298A9C4E92944D22400782C44A008C248A2A90245AC09F081449868020
+          78027DA20A7340114142943CA248340A62A45A12A04522847689A09A836A6B6D
+          49C9327ED21358525242AAFDD9058444CDA714441122698910E173956A5588D5
+          B09226494D6B5292584DB28662D52C28140AA01414204281A26940640183CE61
+          709108205241E0791004F419112082CE050341F07BFD82BFDF17F479FD7CC817
+          24C2A1B08A52D00D82209C1479E90C4911655EB6BE1CD5479CF0046EDBF08186
+          2089FB11090F8992F45325CB804E9F46EA4DFA245D7A2AA14DD32272A844F599
+          0C8117A0CFD3073DEE5EC9DDE5F27ABA3D5238C4A10E81FD0227FCD59F14FABC
+          A4E49F03138AC06D1BDE2FA219FA0551101F484DD7063373B35232B2CC24AB51
+          2794AC5811F007C1D1E210DB1A5AFA7BDD7D2C495187782EB2F5D9ED4F9E1E69
+          D9C32670608ADAD62B14D4268AA2B2A6154C63B3F2B2150A4631DE7CDD141C17
+          8196BA66A1B6BC36C80B427384E35F09681AFE36DC293E2C02773CF37E21C92A
+          76AAD56CD68CC219C9962C0B5AE32797419744093A5A3BA0EA42A537E00F34A3
+          35F589E7B63D7531DE72E26EF5EBCF7FF02F6881DF3167D15C36272F9B98EC8E
+          902449D05CD32C95975D0E82283DFDF4D627DE8EE7FB71357FC7C60F37304AFA
+          95BB56DEA54ED2268D77DB4715DE3E2F9C387022108EF09B366C7DFC8D58BF17
+          3381C8C22EA615D497F7AD5DCEAA35EC78B73721F0FB02F0C5C747834298BB67
+          C38EA74A63F94ECC04FEFB4BBB8ECE5E306B59CED49C493E696F8EA69A26E96A
+          D995A3FFFADA63F7C7727FCC64BCFEFC4EFFCA878BD58C9219EF3626141CF219
+          0FEE3E107866EB139A58EE8F87400911083F04020FEC3E08BFDDFAF398B88999
+          C0375EFC509ABD6036D8A6D9C6BB8D09454355035C3D7F159EDEF2F8E812B8ED
+          D9F725A54A09F7FEE45E50274F8C0863B411F0F9E1D827C701C5D3F0ECB62747
+          9FC082C573A1FE6A2D14DDBF0492B5C9E3DDDE5185B7D70BA78E9C84A9B3A7C2
+          C533971243E0DA5FAC454E67135C41437CE61D330159E44917810C0576A49BAA
+          1BA1E24225CC424B544E7E367CF4DE47892310A3AFA70F2E9CBA20FFF8B43953
+          C162CD00829C5C44CAA15C4B07549757038AE5615ED13CD0EAB4F2B584132857
+          0091E74015A8BD5A07A14018F266DAC19A9705CC441713C21CB4D6B7425D651D
+          A8542AC89B9D0753B2A644313126045E8B9E6E0FD455D443675B27E8F43A3422
+          2D60CEB280266962189B803780469B033A5B1DD0E3EE0173A61975781EE80CBA
+          EBDE3FE6040E821704707538A1A3B513BAD0A16068484DD7C9A4A6EA53419B9E
+          0A34957841B5D7D38B3AB5177A115998303EC2CBA459AC66D067186F59877123
+          F05AE029DEDFDB8F1A811AE2EA951BD5DFD30F2AB50AD41A3560195F8D46289B
+          C4CA7F330C032445028D65FD6F257D858296CB8A200206257D3E22802888B2AE
+          17F00720E40FCAEE47C01F8220FE3F1882145D0AA4A6A5CA9DA6439D9692AA8D
+          4B36991004DE88545FBF5F6E287E9E11F00D7C067D41440807222F028F461026
+          0A138689C3C044624231B1344D01499332E183E4CB1DA146878685A414CD883D
+          83094BE064C16D024788DB048E10B7091C216E133842248CC0354FAE99F4B1EF
+          AD803D85BDEFEF4D0C810F3CB462C244178902F6290FFDF57062089C3E6F3ACC
+          983763BCDB9850545EA884AA4B558921100BAA4B962F913DFCEF233CAE1E3873
+          E474E204D5A2FB8AE09B93DFC0E21F2F867463FA78B77754E176BAE1EC176761
+          FE5DF3E1D4E7A71267859D1DDD70FEEB32B04DB7C1D4D9F9287E4DAC38906808
+          8200B5E5B5D058DD080BEE9E0F068B31F16E0C8E5F2F9DB9248B03530BA68135
+          375316252713B06AD3D6D00655E555B2F030777101A8D403090363E607763B9C
+          68D1AD026FBF1772F26D903B3D07264A4ADB8D8053DD9AAA1AA0B1A609525293
+          617AE10C30980D51F78CB9238D175F5C29478B0334294960CA3481D96A011DEA
+          D9F14E3EC27E1D96D4BADABA64C1D7EFF5CB82AF6D46AE2C755D0FE316896009
+          AABBD32D4BFD8ED64EF97F6C6CB4E95A484595C507B6E48904B6A0B2FEE81E38
+          B071C0EB341653711A9EC1AC97A5B19B6162847212C8531B3706ABC283A22AD6
+          F134291A59BB63656155052C72CE55AC4ACE8FC67ADF4D0555592F14201C0CCB
+          BAA22CA40602E8EF20F8D0E88A84B96BC4D401253CDE47B01383C0EB712A4AF2
+          14C20DC60DC75E7F94A02A88B2E27C53415541C9CA75B4A0AA01B54625778806
+          FD3DD227841396C0C982DB04DE00FD410E4AF69CBDEEB5CD0FDD096AE5C023D9
+          DB04DE00359D3DF097B266C8B6E5469DAFADAD85A796E683CD9022FF9F38029F
+          5C3BEE6EC94870ACB21D2E7505202BD71E75BEBAAA1A96E5EA60719E39B17256
+          F123C5B2B59CACD875BA067A0835583232A2CEB7B4B440B65A823577D864CB7E
+          70F7A1C410B8F0EE859089C2B6C9061159FF3A671FFCF94C2DAA7F1EE852B551
+          D75D2E17B83BDAE0B1A2A940F6F542E957A5892110A742DCB3EA9E49A34A63E2
+          4ED739E0F09556F0877839329A9A9F875CA1E8FC1D3E1281D6F6767077BB8016
+          05B0867A60EBD67F4C04816990993305F266E58D3737DFA12F10862B6D1EB8C3
+          6600F65BC71BC3D1EB879D27ABA12710818C291960369B90934EDFB42CB4FC81
+          C7E386E6C666E004E14C241058B7EF4F0F760C5E2F2EF92C45C913EB25413AFD
+          F11F5655C44DE08AF52BE1F8A7C760CEC23990699B185379E7A96A286FF5C88E
+          F7B429E97077BE09903F0EEF7D5D017AA311726C3971E7E36087BFA5AD4D6A6B
+          6FF7A2D1B99224883425A3FA4D84E7EF52AB592A140A95EDF9FD8AA2B809C46E
+          0C96B04E1E390576148CE7CFCA1FD7E9DCE2F2C2FF7C5D05058585E0F5F9A0AB
+          AB0BDC2E372250847C7B1E98CCC61195DFE3E981CACA9A8846C346CC66B35A6F
+          4897DB5B5A7A3E100E471EDFFF87557B87E5076249A8F4D83939B42A5C320F34
+          C931BD1130AAC0D3EDF5431721C598017ABDFEBBF322222F1C0E03CB8ECECB40
+          78340E0D0D5DA8936A6A6A3A43BD52EC2FCD5C2FC1B2F64AAD7C58ED59B23A8D
+          33AFC60A650D4E3854D90133661740AC932080E2EE4E8723EC76BBC31CC7CB0C
+          330C1D4C4BD72B2D169352AD8E5DCBBC78E972D0E7F56D1E712482D3CBAACB6B
+          A0B5A115A664672032AD906ED2277C6A6F3F700192D38C60B4586E79AF248950
+          5FDF10723A5D2134A276F03CBF9F13983A99408ACBA329C56A8282DF1A8D06A5
+          3D3757756B31020D9E9A7ABEABDBE91EB5500EE7E535D73443535D93EC3E606B
+          9D996B85D4346D42C8C4D6F7BF8F57428ADE007AD38D49C4E45DBE7435100C04
+          8E7A83F0E8E1ED2BFCD7BB6F7DC99749A2C0ED5227A997CD993D5B732312F133
+          94CACAAA505F5F7F3701C28A518F85F1D4F6747BA0A3B91D3ADBBA800B8621CD
+          940E69FA343432D32115F992A395A5CA2173FBE1C91AF089144CC9C9BDAE8C55
+          575717EA76BA0EEF7975C51A6433A55BD49E58F7F2E17D7A837E799EDDFE77EB
+          513014828A2B15A130173A4F53E4EADD252B3D091713B042ECEA429E7E971B1D
+          2EF0F6FA4089C2419C0829EB78C96A48C282AA86058AA440A154C87A1F3650B2
+          0E88462F1650B165C5AE0A4E12C77B2070A85C3CEA71C2E691D67E5098AD9069
+          8D76ADF09A77F1E2E55E9A62ACBB4B96F962A92F1E89BC106E2B2C2CD0B26CF4
+          9AD8D0D0000E87F35C2FAD5C7AECDB9D41C65C8DC1561267A6E2C3D7EF933FFD
+          88042CA8F2720A2F8F08C33B734406946834A2F1461514490EECE4A164060E15
+          23C7E5D803F8ACC50BC919D928D2884E1A6FA86F083B1C5D9BF7BE56BC399E3A
+          AED974E065B3C9F4A23D2F37EAC540677737D4D5D6D77FF4EACAEF2289EF859C
+          F5F29EB330A3602E2899E81721CF9D2BEB47FEDA5DFBB6145F8EA7BC9F6EDC3F
+          57AD61BF5AB87041CAB5E7FD7E3F7C73E112BFEFB562667039F85E10F8DC9F4F
+          C1E23B170139E461D1C993A73905AD4A8F75FA0E62F5731F27930CE35ABAB428
+          AA47F07274AEB40C4886D3ED2D59DBFBBD22F0CEA24568BD4C2C812884C351C8
+          F008DCF1FCCEE0AA4756A926E2B626780ACF9A3B4FDEFDE85A949E2BED0F85F9
+          B8A7F09A173F9DC7A894C7874E61AFD7871DE8E14DE1FF78E9FFAE2EBC77D14C
+          63C6C8E2CB44E0BFBEB802AC2113B4DAA8F622E7B931DCD9D1F5DADE2D2B5F8D
+          8BC04D074ACC66D30B767BB411E9EA7262877C784664FBC6FFFDB5C1A2DFBAF4
+          FE25132A7703C7C4EF7E55013E4512583387BA3101ECC6F4D1943233D6698CA7
+          2FA554B6CE9B57A01D1ADA8DC88D2929F90BA3E5B886C225F333326D532684A2
+          8A1DE99D27AAA1DDCBC1B4E9D3E467C5435157571F72395D47FEF6EA03AB6371
+          A4FFE1779FEF379AF4F7E1906EE855BCF1595565150A427AAFC4ED4863BCBEF1
+          DD3904C99C5EFCE3C59AF19ECA38947BEBCB0A20546AC8B5DBFFCE027F47090A
+          2BCBCBAF209F3AF00549308FDE6824E29147ABD85D1A0D8B4339F58D42393CE2
+          9B9A9B7D1DED1D3D71857283D8BEF1831FA1CA1E285854A019CF2D50B67D7601
+          14493AC8CEC9BAE5BD98C4FAC68690B3AB3B8C1CF337445EDAA754B1B5F85A38
+          14CC2769E24114F1FCC664362A73736C31880988C4A6E6485B7B7B7C2370107F
+          7C6EE73446417E926648CF2C2C2A54A993C67E239ED206271C6FF0807DEAD498
+          BF83D744474727E7E9F18450483820672999605A5A9A2A23C3CC0C0DDD6E04DC
+          2165E7CF73E130F7CAB047D09BBF7E5329A6187E2788C233F6E9363A6F563E3D
+          968F3C6541F5E045D05B73202525DAFA5E4F041D2E82C1202895CAA825A2BDDD
+          8146609323DC27D946FC2B3B9E79C74AB1ECEF45417C3423C74264E767337AA3
+          7E4CB600C092FECE33F530634E015AE079E8767583C7D90D01143160A33294D8
+          78E1F178A0A2B29A270952329A0CB4D96820542C8B43448EE7C547E292F46F85
+          3F3DFBAE992415BF5028A85F4A2059B26C563AD36EA5718A5922C9FCE0643534
+          F784E43835DFA2833BED26D03034BC77A20A8C1919609105D7F87E1F8FE0E6D6
+          16A1ADB58D1325621D90106628F257022FFE8C20299290C4B37B36172F85B84B
+          8E115B37BE378B2198A7481A1E45A65FAF4B4F0D1B2C86A474633A916648035A
+          418FFC47BEC5C0634D3714E61841893A6AE06DF51EA9B9DDE93FD323B061254B
+          E6D86C844EA78BA134095C2E0F34363606B848A449E2A5F5838F2F31B0A59668
+          7A1D2911E7E27EAC395C6C79E11D032328965234B19C20C9E53C27D819461156
+          A7B07C524A3293AC4DC61BD1028B132C71FE1F1A3DF246B4282C93132CD15A17
+          E17910F1817306C311D91FC36FAB07FD01C9DBE7F3FBFB7D619FD74F71A1304B
+          D38A6651924E0811EE0815A18E1DD3A42FA048EA0D8AA24C46B381CDB25AA9A1
+          2E0F7EB0DED2D626383BBB3951147C6839FA3793DBF4CEDB6F2F88DCAA7D63EE
+          86BCF5CBB7147D5A65164950B99228E62262A75134338B20C0841A9E2449A21A
+          91A6C45B2123C254C858A0F61261ACAB4A121141E4F6A18E40813CE114F8488D
+          C04BB524293648825493D5A2A97D78F7C3C2F57E77F54B9F2EA0296AD7AC5933
+          F386AE8D38B5A3A6BACE81BAE8E7AA6ADFF1DD3728634210389E58B7E9E07FE6
+          D86DBFC2590AD7022717B5B6B6EFDABBB9F8B178CBFC4111F8E08B9FFE9325C3
+          F2A6DD9E1BE5B856565486DD6ECF0B1F6FF949CC3B570EE20745E0CF5E3AF023
+          6D4AD2BEB90573A22C4A59D979BF3FC83DF8C996E2A3F196F9C322B064BF9EE0
+          C8EEEB5DA318DAF451C90A67BC65FE3F096D92C91DCC37ED0000000049454E44
+          AE426082}
+        ExplicitHeight = 96
+      end
+      object Label1: TLabel
+        Left = 112
+        Top = 31
+        Width = 266
+        Height = 19
+        Caption = 'Configura'#231#227'o do Banco de Dados'
+        Font.Charset = DEFAULT_CHARSET
+        Font.Color = clWindowText
+        Font.Height = -16
+        Font.Name = 'Tahoma'
+        Font.Style = [fsBold]
+        ParentFont = False
+      end
+      object Label2: TLabel
+        Left = 112
+        Top = 56
+        Width = 314
+        Height = 13
+        Caption = 'Preencha com as informa'#231#245'es do seu servidor de bando de dados'
+        Font.Charset = DEFAULT_CHARSET
+        Font.Color = clGrayText
+        Font.Height = -11
+        Font.Name = 'Tahoma'
+        Font.Style = []
+        ParentFont = False
+      end
+    end
+    object PnlConfigNew: TPanel
+      AlignWithMargins = True
+      Left = 0
+      Top = 106
+      Width = 538
+      Height = 129
+      Margins.Left = 0
+      Margins.Top = 0
+      Margins.Right = 0
+      Margins.Bottom = 8
+      Align = alTop
+      BevelOuter = bvNone
+      Color = clWhite
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = clGrayText
+      Font.Height = -13
+      Font.Name = 'Tahoma'
+      Font.Style = []
+      ParentBackground = False
+      ParentFont = False
+      TabOrder = 1
+      object Label3: TLabel
+        AlignWithMargins = True
+        Left = 8
+        Top = 3
+        Width = 522
+        Height = 16
+        Margins.Left = 8
+        Margins.Right = 8
+        Align = alTop
+        Caption = 'Configura'#231#227'o do Banco de Dados'
+        Font.Charset = DEFAULT_CHARSET
+        Font.Color = clWindowText
+        Font.Height = -13
+        Font.Name = 'Tahoma'
+        Font.Style = [fsBold]
+        ParentFont = False
+        ExplicitWidth = 212
+      end
+      object Panel1: TPanel
+        AlignWithMargins = True
+        Left = 8
+        Top = 22
+        Width = 522
+        Height = 1
+        Margins.Left = 8
+        Margins.Top = 0
+        Margins.Right = 8
+        Align = alTop
+        BevelOuter = bvSpace
+        Caption = 'Panel1'
+        TabOrder = 0
+        ExplicitWidth = 518
+      end
+      object LblEdtNewServer: TLabeledEdit
+        Tag = 5
+        Left = 8
+        Top = 48
+        Width = 322
+        Height = 22
+        Hint = 'Endere'#231'o do servidor de banco de dados'
+        BevelInner = bvNone
+        Ctl3D = False
+        EditLabel.Width = 57
+        EditLabel.Height = 13
+        EditLabel.Caption = 'Servidor (*)'
+        EditLabel.Font.Charset = DEFAULT_CHARSET
+        EditLabel.Font.Color = clGrayText
+        EditLabel.Font.Height = -11
+        EditLabel.Font.Name = 'Tahoma'
+        EditLabel.Font.Style = []
+        EditLabel.ParentFont = False
+        ParentCtl3D = False
+        TabOrder = 1
+      end
+      object LblEdtNewPort: TLabeledEdit
+        Tag = 5
+        Left = 352
+        Top = 48
+        Width = 150
+        Height = 22
+        Hint = 'Porta de conex'#227'o ao servidor de banco de dados'
+        Ctl3D = False
+        EditLabel.Width = 52
+        EditLabel.Height = 16
+        EditLabel.Caption = 'Porta (*)'
+        ParentCtl3D = False
+        TabOrder = 2
+      end
+      object LblEdtNewDatabase: TLabeledEdit
+        Tag = 5
+        Left = 8
+        Top = 96
+        Width = 150
+        Height = 22
+        Ctl3D = False
+        EditLabel.Width = 105
+        EditLabel.Height = 16
+        EditLabel.Caption = 'Base de dados (*)'
+        ParentCtl3D = False
+        TabOrder = 3
+      end
+      object LblEdtNewLogin: TLabeledEdit
+        Tag = 5
+        Left = 180
+        Top = 96
+        Width = 150
+        Height = 22
+        Hint = 'Login de conex'#227'o ao banco de dados'
+        Ctl3D = False
+        EditLabel.Width = 52
+        EditLabel.Height = 16
+        EditLabel.Caption = 'Login (*)'
+        ParentCtl3D = False
+        TabOrder = 4
+      end
+      object LblEdtNewPass: TLabeledEdit
+        Tag = 5
+        Left = 352
+        Top = 96
+        Width = 150
+        Height = 22
+        Hint = 'Senha de conex'#227'o ao banco de dados'
+        Ctl3D = False
+        EditLabel.Width = 58
+        EditLabel.Height = 16
+        EditLabel.Caption = 'Senha (*)'
+        ParentCtl3D = False
+        TabOrder = 5
+      end
+    end
+    object PnlBotton: TPanel
+      AlignWithMargins = True
+      Left = 3
+      Top = 381
+      Width = 532
+      Height = 41
+      Margins.Bottom = 0
+      Align = alBottom
+      BevelOuter = bvNone
+      Color = clWhite
+      ParentBackground = False
+      TabOrder = 2
+      object BtnConfirmar: TButton
+        AlignWithMargins = True
+        Left = 366
+        Top = 8
+        Width = 75
+        Height = 25
+        Margins.Left = 0
+        Margins.Top = 8
+        Margins.Right = 8
+        Margins.Bottom = 8
+        Align = alRight
+        Caption = '&Confirmar'
+        TabOrder = 0
+        OnClick = BtnConfirmarClick
+      end
+      object BtnCancelar: TButton
+        AlignWithMargins = True
+        Left = 449
+        Top = 8
+        Width = 75
+        Height = 25
+        Margins.Left = 0
+        Margins.Top = 8
+        Margins.Right = 8
+        Margins.Bottom = 8
+        Align = alRight
+        Caption = 'C&ancelar'
+        TabOrder = 1
+        OnClick = BtnCancelarClick
+      end
+    end
+    object PnlConfigOld: TPanel
+      AlignWithMargins = True
+      Left = 0
+      Top = 243
+      Width = 538
+      Height = 129
+      Margins.Left = 0
+      Margins.Top = 0
+      Margins.Right = 0
+      Margins.Bottom = 8
+      Align = alTop
+      BevelOuter = bvNone
+      Color = clWhite
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = clGrayText
+      Font.Height = -13
+      Font.Name = 'Tahoma'
+      Font.Style = []
+      ParentBackground = False
+      ParentFont = False
+      TabOrder = 3
+      object Label4: TLabel
+        AlignWithMargins = True
+        Left = 8
+        Top = 3
+        Width = 522
+        Height = 16
+        Margins.Left = 8
+        Margins.Right = 8
+        Align = alTop
+        Caption = 'Configura'#231#227'o atual do Banco de Dados'
+        Font.Charset = DEFAULT_CHARSET
+        Font.Color = clWindowText
+        Font.Height = -13
+        Font.Name = 'Tahoma'
+        Font.Style = [fsBold]
+        ParentFont = False
+        ExplicitWidth = 249
+      end
+      object Panel3: TPanel
+        AlignWithMargins = True
+        Left = 8
+        Top = 22
+        Width = 522
+        Height = 1
+        Margins.Left = 8
+        Margins.Top = 0
+        Margins.Right = 8
+        Align = alTop
+        BevelOuter = bvSpace
+        Caption = 'Panel1'
+        TabOrder = 0
+        ExplicitWidth = 518
+      end
+      object LblEdtOldServer: TLabeledEdit
+        Left = 8
+        Top = 48
+        Width = 322
+        Height = 22
+        TabStop = False
+        BevelInner = bvNone
+        Ctl3D = False
+        EditLabel.Width = 40
+        EditLabel.Height = 13
+        EditLabel.Caption = 'Servidor'
+        EditLabel.Font.Charset = DEFAULT_CHARSET
+        EditLabel.Font.Color = clGrayText
+        EditLabel.Font.Height = -11
+        EditLabel.Font.Name = 'Tahoma'
+        EditLabel.Font.Style = []
+        EditLabel.ParentFont = False
+        ParentCtl3D = False
+        ReadOnly = True
+        TabOrder = 1
+      end
+      object LblEdtOldPort: TLabeledEdit
+        Left = 352
+        Top = 48
+        Width = 150
+        Height = 22
+        TabStop = False
+        Ctl3D = False
+        EditLabel.Width = 30
+        EditLabel.Height = 16
+        EditLabel.Caption = 'Porta'
+        ParentCtl3D = False
+        ReadOnly = True
+        TabOrder = 2
+      end
+      object LblEdtOldDatabase: TLabeledEdit
+        Left = 8
+        Top = 96
+        Width = 150
+        Height = 22
+        TabStop = False
+        Ctl3D = False
+        EditLabel.Width = 83
+        EditLabel.Height = 16
+        EditLabel.Caption = 'Base de dados'
+        ParentCtl3D = False
+        ReadOnly = True
+        TabOrder = 3
+      end
+      object LblEdtOldLogin: TLabeledEdit
+        Left = 180
+        Top = 96
+        Width = 150
+        Height = 22
+        TabStop = False
+        Ctl3D = False
+        EditLabel.Width = 30
+        EditLabel.Height = 16
+        EditLabel.Caption = 'Login'
+        ParentCtl3D = False
+        ReadOnly = True
+        TabOrder = 4
+      end
+      object LblEdtOldPass: TLabeledEdit
+        Left = 352
+        Top = 96
+        Width = 150
+        Height = 22
+        TabStop = False
+        Ctl3D = False
+        EditLabel.Width = 36
+        EditLabel.Height = 16
+        EditLabel.Caption = 'Senha'
+        ParentCtl3D = False
+        ReadOnly = True
+        TabOrder = 5
+      end
+    end
+  end
+end
